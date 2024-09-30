@@ -17,7 +17,7 @@
 							"    pm.response.to.have.status(401);\r",
 							"});\r",
 							"\r",
-							"pm.test(\"Validar mensagem de sucesso\", function () {\r",
+							"pm.test(\"Validar mensagem de erro de autenticação\", function () {\r",
 							"    pm.expect(pm.response.text()).to.include(\"Token de acesso ausente, inválido, expirado ou usuário do token não existe mais\");\r",
 							"});\r",
 							""
